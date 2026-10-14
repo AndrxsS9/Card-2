@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Design tokens: un solo lugar para colores y tipografía */
+@theme inline {
+  --color-brand: #9b2226;
+  --color-brand-dark: #7f1d1d;
+  --color-blush: #fdecea;
+  --color-paper: #fdf3f1;
+  --color-cream: #f8e8cc;
+  --color-gold: #e9a825;
+  --font-sans: var(--font-poppins), system-ui, sans-serif;
+}
+body { background: var(--color-cream); color: var(--color-brand); }
